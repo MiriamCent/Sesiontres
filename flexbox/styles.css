@@ -1,0 +1,33 @@
+.flex-container{
+    display: flex;
+    /* flex-direction: tipos de valores row, colum, colum-reverse, row-reverse */
+    /* flex-direction: aquí pon el valor de flex */
+    /* justify-content: tipo de valores; center, flex-end, flex-start, alinea los elementos o pueden dar espacios con space-around,  space-between */ 
+    /* justify-content: aquí pon el valor de flex */ 
+    /* align-items: Tipo de valores flex-start, center, flex-end, stretch, el descontinuado baseline pone los elementos de diferentes tamaños */
+    /* align-items: aquí pon el valor que necesites;  */
+    /* flex-wrap: wrap es para descordar mis elementos/hijos, para no desbordar a mis hijosnowrap, para desbordar a mis hijos pero al reves wrap-reverse  */
+    /* flex-wrap: aquí puedes poner la propieda para desbordar a lso hijos; */
+    flex-wrap: wrap;
+    /* align-content: space-between, space-around, center, flex-end, flex-start */
+    align-content: flex-start;
+    height: 600px;
+    background-color: rgb(0, 119, 255);
+
+
+
+
+
+}
+
+.flex-container > div{
+    background-color: rgb(223, 242, 255);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: rgb(32, 98, 240);
+
+
+}
